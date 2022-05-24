@@ -83,6 +83,7 @@ In detail
       keyword patience equal to 10,20,30,40 and 50.
       
   (3) stock_prize folder: 
+  
     - stock_prize_prediction_experiments_demo.ipynb includes the experiments concerning the problem of forecasting the "down" movements in stock prizes
       relying on information concerned the daily closure prizes in the database put at disposal by Yahoo Finance.
       The demo shows results obtained by applying the ensemble strategy proposed in [1] and the early stopping strategy when a deep multi-layer
@@ -106,6 +107,7 @@ In detail
       keyword patience equal to 10,20,30,40 and 50.
       
   (4) iot_datastream folder: 
+  
     - iot_datastream_prediction_experiments_demo.ipynb includes the experiments concerning the problem of predicting the usage of light from IoT data
       stream
       The demo shows results obtained by applying the ensemble strategy proposed in [1] and the early stopping strategy when a CNN-LSTM
