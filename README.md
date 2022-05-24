@@ -3,9 +3,13 @@
 Major softwares: Keras 2.4.3, Tensorflow 2.3.0, Python 2.7.15
 
 We provide the experiments shown in [1] concerning four applications:
+
 (1) Pollution forecasting problem (pollution folder)
+
 (2) Solar flare forecasting problem (solar_flare folder)
+
 (3) Stock prize foreacsting problem (stock_prize folder)
+
 (4) IoT data stream forecasting problem (iot_datastream folder)
 
 Each folder contains:
