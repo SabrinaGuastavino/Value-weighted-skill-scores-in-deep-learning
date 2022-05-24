@@ -19,24 +19,37 @@ Each folder contains:
 - a prediction folder
 
 In detail
+
 (1) pollution folder: 
+
     - pollution_experiments_demo.ipynb includes the experiments concerning the problem of predicting high level of pollution air from data 
       The demo shows results obtained by using the following classical machine learning methods:
+      
       - Logistic Regression (LR)
+      
       - Support Vector Machine (SVM)
+      
       - a Fully connected Neural Network (NN)
+      
       Furthermore, the demo shows results obtained by applying the ensemble strategy proposed in [1] and the early stopping strategy when an LSTM network
       is trained:
+      
       - ensemble strategy based on TSS optimization
+      
       - ensemble strategy based on wTSS optimization
+      
       - early stopping strategy based on TSS optimization
+      
       - early stopping strategy based on wTSS optimization
+      
     - data folder includes the data file pollution.csv (the data set comes from the University of California at Irvine (UCI), available at
       https://archive.ics.uci.edu/ml/datasets/Beijing+PM2.5+Data via the data interface released by the US embassy in Beijing)
+      
     - utilities folder includes utilities_forecasting.py and save_variables folder. The utilities_forecasting.py file mainly includes all the necessary
       functions for implementing the ensemble strategy based on the optimization of quality-based and value-weighted skill scores and for the slection of
       the patience parameter of the early stopping strategy. The save_variables folder includes the variables which are saved during the ensemble
       procedures.
+      
     - prediction folder includes the predictions on the test set obtained by LR (named y_pred_LR.npy), by SVM (named y_pred_SVM.npy) and by NN (named
       y_pred_nn.npy), the checkpoints folder which includes the LSTM models saved during the training process on 100 epochs and the final LSTM models
       saved during the training process when the early stopping strategy is applied with the keyword patience equal to 10,20,30,40 and 50.
