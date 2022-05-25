@@ -1,0 +1,17 @@
+# Requirements to run the notebooks and functions in this repository
+os
+csv
+numpy
+random
+pandas
+pickle
+glob
+sys
+matplotlib
+scikit-learn
+tensorflow
+keras
+seaborn
+datetime
+fix_yahoo_finance
+pandas-datareader
