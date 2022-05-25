@@ -1,4 +1,4 @@
-# Value-weighted-skill-scores-in-deep-learning
+## Value-weighted-skill-scores-in-deep-learning
 
 Forecast verification is a crucial task for assessing the predictive power of prognostic model forecasts and it is usually implemented by checking quality-based skill scores. In [1] we propose a novel approach to realize forecast verification focusing not just on the forecast quality but rather on its value. Specifically, we introduce a strategy for assessing the severity of forecast errors based on the evidence
 that, on the one hand, a false alarm just anticipating an occurring event is better than one in the middle of consecutive non-occurring events, and that, on the other hand, a miss of an isolated event has a worse impact than a miss of a single event, which is part of several consecutive occurrences.
