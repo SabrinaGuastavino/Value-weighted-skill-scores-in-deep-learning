@@ -1,18 +1,18 @@
-### Value-weighted-skill-scores-in-deep-learning
+# Value-weighted-skill-scores-in-deep-learning
 
 Forecast verification is a crucial task for assessing the predictive power of prognostic model forecasts and it is usually implemented by checking quality-based skill scores. In [1] we propose a novel approach to realize forecast verification focusing not just on the forecast quality but rather on its value. Specifically, we introduce a strategy for assessing the severity of forecast errors based on the evidence
 that, on the one hand, a false alarm just anticipating an occurring event is better than one in the middle of consecutive non-occurring events, and that, on the other hand, a miss of an isolated event has a worse impact than a miss of a single event, which is part of several consecutive occurrences.
 Relying on this idea, in [1] a notion of value-weighted skill scores is introduced giving greater importance to the value of the prediction rather than to its quality. Then, in [1] two ensemble deep learning methods for binary classification are developed, one based on the verification of standard (quality-based) skill scores and the other based on the proposed value-weighted skill scores.
 
-# Reference
+### Reference
 
 [1] Guastavino Sabrina, Piana Michele and Benvenuto Federico, Bad and good errors: value-weighted skill scores in deep ensemble learning, arXiv:2103.02881v1 
 
-# Using the code
+### Using the code
 
 Major softwares: Keras 2.4.3, Tensorflow 2.3.0, Python 2.7.15. The requirements.txt file lists all the packages necessary to runthe notebooks and functions in this repository.
 
-# Contents
+### Contents
 
 This repository contains the experiments shown in [1] concerning four applications:
 
@@ -147,7 +147,7 @@ In detail
       keyword patience equal to 10,20,30,40 and 50.
       
       
-# Citation
+### Citation
 If you use the codes, please consider citing [1].
 Here is the bibitex entry
 
