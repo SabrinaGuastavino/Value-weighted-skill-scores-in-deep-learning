@@ -1,8 +1,20 @@
-# Value-weighted-skill-scores-in-deep-learning
+### Value-weighted-skill-scores-in-deep-learning
 
-Major softwares: Keras 2.4.3, Tensorflow 2.3.0, Python 2.7.15
+Forecast verification is a crucial task for assessing the predictive power of prognostic model forecasts and it is usually implemented by checking quality-based skill scores. In [1] we propose a novel approach to realize forecast verification focusing not just on the forecast quality but rather on its value. Specifically, we introduce a strategy for assessing the severity of forecast errors based on the evidence
+that, on the one hand, a false alarm just anticipating an occurring event is better than one in the middle of consecutive non-occurring events, and that, on the other hand, a miss of an isolated event has a worse impact than a miss of a single event, which is part of several consecutive occurrences.
+Relying on this idea, in [1] a notion of value-weighted skill scores is introduced giving greater importance to the value of the prediction rather than to its quality. Then, in [1] two ensemble deep learning methods for binary classification are developed, one based on the verification of standard (quality-based) skill scores and the other based on the proposed value-weighted skill scores.
 
-We provide the experiments shown in [1] concerning four applications:
+## Reference
+
+[1] Guastavino Sabrina, Piana Michele and Benvenuto Federico, Bad and good errors: value-weighted skill scores in deep ensemble learning, arXiv:2103.02881v1 
+
+## Using the code
+
+Major softwares: Keras 2.4.3, Tensorflow 2.3.0, Python 2.7.15. The requirements.txt file lists all the packages necessary to runthe notebooks and functions in this repository.
+
+## Contents
+
+This repository contains the experiments shown in [1] concerning four applications:
 
 (1) Pollution forecasting problem (pollution folder)
 
@@ -122,7 +134,7 @@ In detail
       
       - early stopping strategy based on wTSS optimization
       
-    - data folder includes the data file iot_telemetry_data.csv, the dataset is available at 
+    - data folder includes the data file iot_telemetry_data.csv (unzip it before using it), the dataset is available at 
        https://www.kaggle.com/garystafford/environmental-sensor-data-132k
        
     - utilities folder includes utilities_iot_datastream_forecasting.py and save_variables folder. The utilities_iot_datastream_forecasting.py file
@@ -133,5 +145,17 @@ In detail
     - prediction folder includes the checkpoints folder which includes the CNN-LSTM models saved during the training process on 100
       epochs and the final CNN-LSTM models saved during the training process when the early stopping strategy is applied with the
       keyword patience equal to 10,20,30,40 and 50.
+      
+      
+## Citation
+If you use the codes, please consider citing [1].
+Here is the bibitex entry
+
+@article{guastavino2021bad,
+  title={Bad and good errors: value-weighted skill scores in deep ensemble learning},
+  author={Guastavino, Sabrina and Piana, Michele and Benvenuto, Federico},
+  journal={arXiv preprint arXiv:2103.02881},
+  year={2021}
+}
       
 
