@@ -22,7 +22,8 @@ In detail
 
 (1) pollution folder: 
 
-    - pollution_experiments_demo.ipynb includes the experiments concerning the problem of predicting high level of pollution air from data 
+    - pollution_experiments_demo.ipynb includes the experiments concerning the problem of predicting whether PM2.5 concentration will exceed a fixed
+      threshold associated to a condition of severely polluted air. 
       The demo shows results obtained by using the following classical machine learning methods:
       
       - Logistic Regression (LR)
