@@ -10,7 +10,7 @@ Relying on this idea, in [1] a notion of value-weighted skill scores is introduc
 
 ### Using the code
 
-Major softwares: Keras 2.4.3, Tensorflow 2.3.0, Python 2.7.15. The requirements.txt file lists all the packages necessary to runthe notebooks and functions in this repository.
+Major softwares: Keras 2.4.3, Tensorflow 2.3.0, Python 2.7.15. The requirements.txt file lists all the packages necessary to run the notebooks and functions in this repository.
 
 ### Contents
 
