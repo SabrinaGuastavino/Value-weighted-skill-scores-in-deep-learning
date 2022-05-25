@@ -1,2 +1,3 @@
 
-Download iot_telemetry_data.csv from https://www.kaggle.com/datasets/garystafford/environmental-sensor-data-132k and save it in data folder.
+Unzip iot_telemetry_data.zip before using it. The iot_telemetry_data.csv file was downloaded from 
+https://www.kaggle.com/datasets/garystafford/environmental-sensor-data-132k and save it in data folder.
