@@ -6,7 +6,7 @@ Relying on this idea, in [1] a notion of value-weighted skill scores is introduc
 
 ### Reference
 
-[1] Guastavino Sabrina, Piana Michele and Benvenuto Federico, Bad and good errors: value-weighted skill scores in deep ensemble learning, arXiv:2103.02881v1 
+[1] Guastavino Sabrina, Piana Michele and Benvenuto Federico, Bad and good errors: value-weighted skill scores in deep ensemble learning, IEEE Transactions on Neural Networks and Learning Systems, 2022, doi: 10.1109/TNNLS.2022.3186068.
 
 ### Using the code
 
@@ -151,11 +151,15 @@ In detail
 If you use the codes, please consider citing [1].
 Here is the bibitex entry
 
-@article{guastavino2021bad,
-  title={Bad and good errors: value-weighted skill scores in deep ensemble learning},
+
+@article{guastavino2022bad,
   author={Guastavino, Sabrina and Piana, Michele and Benvenuto, Federico},
-  journal={arXiv preprint arXiv:2103.02881},
-  year={2021}
-}
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Bad and Good Errors: Value-Weighted Skill Scores in Deep Ensemble Learning}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-10},
+  doi={10.1109/TNNLS.2022.3186068}}
       
 
